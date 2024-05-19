@@ -1,0 +1,8 @@
+integrate chatgpt with app
+gen AIOPS
+
+in 3.5 prompt is known as message
+ 
+click to images
+
+after =1 hr image delete in jupyter

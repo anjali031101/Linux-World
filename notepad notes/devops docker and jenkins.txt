@@ -1,0 +1,79 @@
+devops :docker and jenkins
+diagram devops pipeline
+
+cd deploy krna systrm
+jenkins CI/CD continuos integration(build and testing )
+centralized system created for developers so that other developers can also add or contribute other features
+SCM(SOURCE CODE MANAGEMENT)ex github
+
+hmara code hume website ko run krna h goal
+suppose dev created a code in java . first we will download a code then we will launch it on the system .
+first dev push it on scm git hub then pull deployment run .
+
+ 
+ bug:program runs but does not give desired output.
+bug fix by dev then again pushed on github this ycle continous known as continuous deployment.
+
+salanium tester pynos framework
+time to market:how quick aapka product market me jaye..so automation needed
+
+canary release (company release in this way)release their product 1%.
+
+for ci part continuation we need to use automs, nayr ation
+for automation we use jenkins software
+cd will also done by jenkins
+ci cd done by jenkin
+launch instaance
+ec2
+aws
+jenkins
+jenkins instalation online
+linux
+red hat
+yum configure
+jdk install for amazon linux 
+redhat linux new os launch
+jenkins on top of alinux
+installimg jdk on it
+jdk  install linux 2
+ do it on red hat only
+rhel8 new jenkins finally
+instead on netstat --tnlp
+ss -tnlp
+choose custom tcp my Ip AB security setup
+cat url
+passwrd
+
+jenkins work is to integrate it has capability
+it has pluggins for that
+automate krwayega
+go for suggested pluggins(commonluy used")
+process means pipeline
+ex pf automation tool or server
+new accou t
+passwd
+full name 
+mailgives jenkins URL
+jenkins-job\grren tick
+every command should be non iteractive noy yes no like yes
+limited
+use sudo yum install docker -y
+
+
+half pass half run so thunder
+sun full passed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

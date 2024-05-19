@@ -1,0 +1,15 @@
+in deep learning we say weight to coeff ..neuron tell the weight
+ activation function changes in neuron acc to problem statement that is  linear reg. or binary classification .(sigmoid fun)
+x y dono ko use krke learning shuru kr deta h
+neuron have activation function
+1 neuron equal to 1 activation fun
+ml goal is to find bias and coeff.
+coeff/weight/kernel
+bias/constant
+x and y knowing we find bias and coeff in deep learning
+learning is done thru error and failure
+one layer known as perceptron
+in ml we use sklearn which use numpy if u have knowledge of numpy then u can do things without using sklearn
+
+in deep learning we use tensorflow instead of numpy .the library instead of sklearn we use keras so that our work simplify (mathematical cal and algo are done by tensor flow)
+

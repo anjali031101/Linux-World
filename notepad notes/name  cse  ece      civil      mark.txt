@@ -1,0 +1,13 @@
+name  cse  ece      civil      marks   salary
+      5*2  50*3     100*4      10*1    y
+----------------------------------------------
+rahul   1    0        0         80      10000
+tom     0    0        1         90      50000
+ece     0    1        0         70      15000
+amit    0    0        1         80      40000
+
+
+
+
+category variable into dummy variable convert  there is no meaning to give weight to categorical variable
+har ka ek variable bnana pdega convert into variable 

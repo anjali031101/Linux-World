@@ -1,0 +1,4 @@
+machine learning 24 6 23
+image is 3d numpy array
+object detection(thru AI)
+HAAR CASCADE model used for object detection online download

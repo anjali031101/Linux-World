@@ -1,0 +1,22 @@
+linux 22 6 23
+dnAt(destination nating) (DESTINATION ADDRESS TRANSLATION)
+private>public(snet)
+public>private(dnet) 
+(public(google) router li public ip pr aa skte h)(router tak packet phuch jaygega net se )(packet is for my private system)
+google think it is public ip but actually it is conn by our system
+ssh conn has 22 as port no
+we also conn thru ip of router we dont know the real system ip
+set up  dmz(de militarised zone)
+router can have more than one ip known as ippool
+they will connect to services/port no.
+
+PATing(specialised usecase of nating is POrt Address Translation )
+
+switch is also known as bridge
+set up web server
+
+curl
+linux has its own firewall active
+
+status firewalld
+linux can also bheave AS ROUTER

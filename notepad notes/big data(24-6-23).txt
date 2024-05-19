@@ -1,0 +1,64 @@
+big data(24-6-23)
+amr(pure hadoop service) for aws
+
+heap error means works on java ..jvm req lot of memory system ram less heap error occurs increase ram on ur system
+more comp have more volume..more vel.
+
+1: hadoop data store parallel it is myth....hadoop store data in sequence 10gb first store then start another in a seq
+data is saved by client note not by name node
+ vel prblm not solved properly it just seems it is solved by hadoop
+
+file or data not go to name node from client
+client first contact to name node just to know ip and then client by knowing ip goes themself to data node 
+it is duty of client to partition the file using hadoop command hadoop fs(cut the fie into  multiple blocks 64gb client takes one block at atime and stores at data node)
+replica
+hadoop fs(known as client software u can download the file)
+client can be hadoop fs/app
+clent is the one who have  ur data 
+client is the one who gonna decide 2 replica or 3 replica
+and then client tells data node to copy for other 
+it takes more time to store data thru hadoop(vel issue)
+with the help of hadoop u can create ur own  supercomputer
+
+in comp worls we have 3 type of devices app/program--->ram/cpu(compute unit  or devices)
+but if program wants to store data permanent(hard disk/storage unit)
+distributed storage- hadoop hdfs(vol prblm) ,cluster fs,ccph,s3
+-----------------------------
+distributed computing(cocept) have an approach known as map reduce
+-----------------------------
+ slave nodes are going to contribute storage to master node(storage capacity increase)
+algorithm:-
+mapping and reducing concept mapreduce(ex copy page distributed and told everyone to count words and last sum  one return by collecting to master node)
+every slave node performs parallely mapping is everyone doing work individually and at last combined so reduce
+data analysis prblm solved by map reduce
+--------------------------------------
+#master nod ealso known as job tracker in distributed computing
+#slave also known as task tracker or slave or worker node
+--------------------------------------
+set up hdfs cluster
+
+apache hadoop (capability)
+storage(hdfs) ,computing(map reduce), scheduling(yarn)
+
+storage cluster,computing cluster (2 cluster integrate) conn. to haddoop user  
+
+instances
+hadoop mr
+rhel 7
+no.  instances
+t2.micro key pair awssummer
+ 
+wget http
+apache hadoop1.2.1
+
+
+
+
+
+
+
+
+
+
+
+

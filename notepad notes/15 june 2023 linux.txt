@@ -1,0 +1,54 @@
+15 june 2023 linux
+date
+which date(which software created date file)
+rpm -q -f /usr/bin/date(gives the name of software who created date command)
+rpm -q -i coreutils(used to get more information about software i is info)
+if date command gets corrupted we can install this software to get command)
+the software to manage packages is known as RPM redhat package manager
+rpm -q firefox(to see that software is installed or not ) 
+rpm -q -a(gives list of all installed softwares)
+rpm -q -a | grep gives list of all program who have blue in their name
+rpm -q -l firefox(gives list of files created during installation of firefox)
+software is a package and it copies at diff locations
+
+if u have no set up how to install software using which coomand and copying...
+
+rpm -e firefox( e is erase for unstallation of software)
+rpm -q firefox(shows not installed) q query
+now firefox command will not work
+for attaching iso file rhel 9.2  need to connect
+steps - devices ,optimal drive ,located choose and open
+
+df (shows the list of drives) 
+pwd 
+ls
+grep command we can use to find easily name of software
+rpm -i firefox(install)
+rpm -i -v -h firefox_102.0.......(v verbos h hashes v and h are optional)  or rpm -ivh
+
+
+cmd option arguments (rpm -q firefox)typical syntax of command
+one software depends on other software(dependency challenge and issues thats why rpm is not recommended to install)
+dependency prblm can be solved thru yum or dnf command for installation
+
+yum install httpd(automatic install new version no need to give )
+min requirement of yum is it should no where the software located so we need to provide once location that is known as configure ..set up once
+
+repository / rpm/repo :
+vim vimal.repo(filename.repo)
+go up to parent folder by
+cd..
+give url or location 
+give unique name to url like [dvd1] 
+to check software signature gpgcheck=1(for 1 we have to many settings)
+once configured then we can use yum anywhere we can remove install
+dono wanna check then do 0 
+yum will only install the software present in repository
+for extra need to find rep on internet
+ping google.com
+rhel9 yum repositories
+epel release rhel9 yum repository(it will automatically configure the yum for u)
+yum install vlc
+search on internet on which site located then use yum command with that location
+guvcview(graphical commND)for webcam
+SSH(LIVE STREAM)

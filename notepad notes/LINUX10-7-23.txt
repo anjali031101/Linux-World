@@ -1,0 +1,24 @@
+LINUX:10-7-23
+tasks:
+
+FIND A WAY so that automatically your terminal gets logout
+hit and trial 3 times wrong passwd  then lock your account
+u have to email thru command line
+command line  whatsapp
+launch linux graphical program on windows
+linux k andr windows software run also run them X window forwarding
+browser k andr notepad (browser inside browser)
+find way to upload or send file or folder but only the data part(differential part/newly added data)
+find a way to ssh from device A to B  but the actual ssh will be done in F(i.e. from A-B-C-D-E-F)i.e. create your own i.e.onion routing
+ascii art
+command line se QR code bnana h and command line se QR ko pdhna bhi h
+if u want to use mouse on pure black screen how we can
+
+dialog --inputbox "enter ur name" 10 40
+
+dialog --msgbox "welcome to my world" 10 10
+dialog --yesno "do u want " 10 30
+genetea also u can use
+
+TUI 
+project: u have to convert everything  in form of TUI 

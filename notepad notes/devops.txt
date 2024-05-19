@@ -1,0 +1,78 @@
+15 june 2023
+devops
+docker-tool come under devops works on the idea of containerisation
+containerisation(container is a technology) or container technology system: can install os very quick ....entire os....less cost as thru this less ram req as com to nrml os installation less memory use
+soloman hy made it easy (containerisation)
+he created a product docker
+we are going to launch a n no of os within a sec with the use of docker
+docker-os linux-on AWScloud
+going to launch on cloud linux base (host)-docker
+
+google aws.com account
+bare metal
+virtualisation
+cont: docker/podman/rkt(min req requirement image) in dockr known as docker image
+docker ps(how much os running)
+os running thru ubuntu
+docker run -i -t ubuntu14.04
+exit for shut down
+ubuntu stop
+
+..................................................................................................................
+16june......................................................
+install docker in rhel
+dcker ps
+docker images
+docker pull ubuntu:14.04 (to download image syntax image:version or tags)
+hub.docker.com(site for images available version) 
+search for ubuntu or redhat
+docker info
+container:if we launch directly in comp then bare metal
+in docker world then os is known as containerisation
+
+ubuntu is a docker image or container image
+docker run -i -t ubuntu:14.04(os launches)interactive terminal-it
+free -m(memory)
+docker ps
+exit
+
+docker ps-a a means all
+docker attach myos1
+ifconfig
+docker start id paste new terminal
+docker ps -a
+docker attach 
+ping ip
+(networking)
+
+python 3
+x=5
+print(x)
+exit
+
+docker rm myos
+docker ps -a
+
+docker pull centos(more like redhat)
+
+docker images
+docker run -it --name myl centos  try all commands red hat
+date
+ls
+ifconfig(cmnd software se hi aati h)not working
+one command in yum called yumwhatprovides ifconfig(tells software name)it will only work when yum is configure
+ping google.com
+yum config.
+docker run -it centos
+yum install net tools
+docker world is entire os we can install any software and can run any command
+
+task: in this os u have to install python and pip command and libraries pandas matplotlib numpy create model
+run firefox in docker (gui)
+espeak-ng tts in docker run
+guvcview live stream
+run some commands in docker
+launch gui in docker
+launch docker into docker(dind)docker inside docker
+
+

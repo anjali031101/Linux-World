@@ -1,0 +1,44 @@
+JAVA script it makes page interactive
+client side lang
+talks to browser every click and all  that is only javascript
+
+java script events
+in html reload page is not good practice
+we can make entire own prsnl os using javascript
+backend python and on browser javascript
+u will do code of javascript in html page only
+
+<html>
+<head>
+<script>
+
+function lwsum()
+{
+x=5
+y=2
+z=x+y
+document.write(y)
+}
+</script>
+</head>
+</html>
+
+
+
+
+
+<body>
+welcome to linux world
+</body>
+#mostly we write code in js before body
+<script>
+x=7
+hellomyy#due to this code will fail u can only use JS syntax here u cant do coding outside the script
+document.write("hello") btane k liye that this in jS
+</script>
+dom power of js
+
+AWS  DATABASE SERVICES FOR REDSHIFT
+
+
+

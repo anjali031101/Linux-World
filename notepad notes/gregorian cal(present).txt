@@ -1,0 +1,7 @@
+gregorian cal(present)
+julian(past)45BC
+
+reason when earth revolve around sun it does not completely in 365 and 366(leap year) exactly it is 365.25(1/4th day 
+
+overcorrection hora tha
+date shift hori thi

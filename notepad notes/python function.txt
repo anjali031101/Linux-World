@@ -1,0 +1,74 @@
+python function
+## def mysum(x,y): #not good practice function name dia bcz aage call kr sake 
+    #but func wahi bnao jha req pde 
+    z=x+y
+    return 
+mysum(5,2)
+#anonymous function (lamda) keyword thru which we create anonmous function
+my = lambda x,y:x+y   #(function aise bna skte ho)
+my(3,6)
+my1 = lambda x: print(x)
+my1("hi")
+print("hi") #many func jo func ko hi input lere h ex filter 
+#not take input value known as first order function
+list(filter(lambda x : x%2 == 0,[1,2,3,4,5,6]))
+"vimal@gmail.com","jack@lw.com","amit@gmail.com"
+"vimal@gmail.com".split("@")[1]
+"jack@lw.com".split("@")[1] == "gmail.com" #filter func h jo input leta h
+list(filter(lambda x: x.split("@")[1]=="gmail.com",["vimal@gmail.com","jack@lw.com","amit@gmail.com"]))
+import pandas as pd
+dataset = {"name" : ["vimal","jack","pop"],
+           "id": [1,2,3]
+          }
+db= pd.DataFrame(dataset)
+type(db['name'])
+## def mysum(x,y): #not good practice function name dia bcz aage call kr sake 
+    #but func wahi bnao jha req pde 
+    z=x+y
+    return 
+
+mysum(5,2)
+
+#anonymous function (lamda) keyword thru which we create anonmous function
+
+
+my = lambda x,y:x+y   #(function aise bna skte ho)
+
+my(3,6)
+
+my1 = lambda x: print(x)
+
+my1("hi")
+
+print("hi") #many func jo func ko hi input lere h ex filter 
+#not take input value known as first order function
+
+
+
+list(filter(lambda x : x%2 == 0,[1,2,3,4,5,6]))
+
+"vimal@gmail.com","jack@lw.com","amit@gmail.com"
+
+"vimal@gmail.com".split("@")[1]
+
+"jack@lw.com".split("@")[1] == "gmail.com" #filter func h jo input leta h
+
+list(filter(lambda x: x.split("@")[1]=="gmail.com",["vimal@gmail.com","jack@lw.com","amit@gmail.com"]))
+
+import pandas as pd
+
+dataset = {"name" : ["vimal","jack","pop"],
+           "id": [1,2,3]
+          }
+
+dataset
+
+db= pd.DataFrame(dataset)
+
+type(db['name'])
+
+db['name'].apply(lambda x: x+"@lw.com")
+
+db['name']
+
+

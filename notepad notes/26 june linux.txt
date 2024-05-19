@@ -1,0 +1,31 @@
+26 june linux
+user management
+alt ctrl f3 graphic(to switch to terminal)
+user management
+useradd username (cmnd used to create the user)
+passwd username(to create password)
+
+wc -l /etc/passwd(to count line 
+(line is equal to no of account or user) it does not count words)
+every line contain seven fields about user in file
+1.username 2or login name 
+2.x(passwrd link) /etc/shadow passwd file is readable for all the users(so no security)so for that reason we use x that means password goes in background and goes to shadow file which is a secure file.if we remove x then can login without passwrd 
+3.UID (user id) (id -u is gor checking the uid of user) in linux the user which has id 0(root) has all the power of the system if somehow i can do general user id 0 then i can also have unlimited power
+4.GID(Group id)
+..........................................................................................................................................................
+sed -i's/vimal:x:1000(uid of general user)/vimal:x:0/' /etc/passwd (can used for hacking purpose)9path in which we want to change the string)
+vim virus.sh
+in the above file paste the above sed command
+and then run using bash virus.sh
+.........................................................................................................................................................
+w or who command will tell with which user is looged in and by which ip and at which terminal
+pinky command used for which user is logged in and fourth one is finger
+5.comment field
+6.finger database(GECOS)
+
+
+cd /var/log/(in this directory one file is there named secure which have all the info about  the login session of all the user)
+cd /var/log/secure
+
+login name:password link to /etc/shadow:UID:GID:comments/GECOS 
+finger rpm for rhel9 

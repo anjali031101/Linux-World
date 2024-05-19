@@ -1,0 +1,5 @@
+30 6 23 linux
+web server7
+work on port no 80(default setting)
+if u want to change then u can use conf.file 
+

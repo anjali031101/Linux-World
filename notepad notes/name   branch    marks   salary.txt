@@ -1,0 +1,11 @@
+name   branch    marks   salary
+        c1x1     c2x2     y
+------------------------------
+rahul  cse      80      10000
+tom    civil    90      50000
+ece    ece      70      15000
+amit   civil    80      40000
+
+
+there is no meaning to give weight to categorical variable
+har ka ek variable bnana pdega convert into variable 

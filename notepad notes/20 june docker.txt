@@ -1,0 +1,41 @@
+20 june docker
+
+yum install net-tools for ifconfig
+vi my.py
+python3 my.py(we are inside our container our own os)
+exit
+docker ps
+docker ps-a
+docker start myos1
+dockerattachmyos1
+pwd
+ls
+python3 my.py
+exit
+docker commit myos1 myvimal:v1
+whoam1
+sudo su-root
+docker commit myos1 myvimal
+dockerimages
+docker run -it myvimal:latestpwd
+ls
+python3 my.py
+inside docker
+exit
+life of program should be equal to life of os 
+our target is to run a program not to launch a container
+docker run -it -rm nvimal:latest date(run and termiate)(this command gonna help for serveless service like lemda,docker )(program wahi run hoga jo image me hoga(in place of date python2/my.py cmnd argument)
+how to share image 
+need dockerhub account
+upload in ur account in repository
+we need to use cmnd line to the public
+docker login
+docker images
+docker push myvimal:latest(want to upload for dwnld use pull)
+use unique sp for that gay
+
+use id 
+for nmae chngage 
+docker tag myvimal:latest
+docker e push  
+

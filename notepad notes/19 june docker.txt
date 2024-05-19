@@ -1,0 +1,35 @@
+19 june
+sudo su-
+date &&cal
+date1 && cal
+yum install docker -y && systemctl start docker
+docker ps
+docker pull centos:7
+docker images
+docker run -it centos:7
+python3
+python
+ifconfig and pip3(not found)
+yum install net-tools(gives ifconfig command)
+ifconfig(now u can run)
+exit
+ docker rm e7cb
+
+docker ps -a
+docker n andr docker base os pr chlegi
+left ctrl q p q -come out of docker on base os
+docker ps
+docker stop 
+d0cker run -it centos:7
+
+
+networking k thr data exchange nc
+
+clone or copy 
+docker commit laughing goldstine file name vimal:v1
+docker hub is one of the public hub key registory
+docker hub id
+aws ecr..can try
+docker hub account docker rmi(rm for delete container and i for imge
+docker file
+

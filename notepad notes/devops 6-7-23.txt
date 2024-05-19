@@ -1,0 +1,16 @@
+devops 6-7-23
+make file
+command install u need
+ docker commit cname(container name) image:v1
+two ways:
+manually way commit command
+automation docker file
+webserver bnana yum in stall httpd -y
+whatever is made is saved in container
+
+podman is used in linux 
+podman is daemonless and in this no service present  but docker needs daemon 
+no diff in place odf docker u can use podman also
+podman is a tool provided itself by rhel or red hat already present
+redhat promote podman 
+present in dvd

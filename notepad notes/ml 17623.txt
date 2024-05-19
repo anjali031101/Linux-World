@@ -1,0 +1,12 @@
+ml 17623
+computer vision
+webcam
+esp extra sensory perception 6th sense
+
+#numpy array se khudki photograph create krenge
+every colorful image is 3 D
+cv2.imshow ("my photo", photo)  
+
+if cv2.waitKey() == 27:
+    cv2.destroyAllWindows()
+#x=5 y=10 a,b=x,y

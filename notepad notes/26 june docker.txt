@@ -1,0 +1,45 @@
+26 june docker
+docker container ko ek sath bnd krna h
+docker ps -a -q will give id
+run the loop for deleting
+scnd method
+ex echo date(date is treated as string here  u dont want to ctreat command as a string then write echo $(date)
+docker rm -f $(docker ps -a -q)this is alinux command but dont use it in company
+
+docker ps
+docker ps -a
+launch container ....docker run -dit --name myos1 centos:7
+                                            myos2
+docker ps
+docker exec -it myos1 ifconfig
+every container gets ip automatically
+
+one command in docker to ask ip is:docker inspect myos1(tells internal settings as well as ip of os) after/ it is net mask
+
+docker attach myos2
+ping ip
+
+whnvr u set docker host behind the scene docker has created own prsnl LAN for u also known as docker network.LAN has created its own switch
+with SDN we can create devices like switch ,router.in router docker also create a DHCP server (dhcp server gives ip or we can say that it manages ip also known as ipam ip address management) this set up is virtual
+
+docker attach myos1
+ifconfig
+nettools -y
+route -n
+sorce neting(masquerade)
+ public when comes in private it is thru de neting which is not available in docker
+
+
+launch webserver
+launch new cont
+yum install httpd
+rpm -q httpd
+cd /var/ww/html/
+ls
+cat > inddex.html
+mv inddex.html index.html
+ls
+sysystem start httpd
+ task :why we cant start any server in docker
+and how we can start web server in docker
+

@@ -1,0 +1,31 @@
+3 july linux
+ssh  general and secure protocol usecase that ur internet not req 
+remote login
+file transfer
+vpn
+ssh usecase(file transfer) 
+x window forwarding
+(SAS)software as a service (in a cloud world) u can acess gui application of another system on ur system without installing in ur own by ssh network ...ssh will load xwindow base of graphical interface ...ssh is known for remote login.
+ssh command ends after semicolon
+ssh -l root ip date;cal
+if u want to run ur multiple commands in one connection and thru ssh connection then put them in semi colon "date;ifconfig ;cal" this run all commands in one go
+............................................................................................................
+#vine is a software thru which u can install any window app on linux (it has compiler .net )mono will give run time .net
+
+  
+...........................................................................................................
+if u want to do x window forwarding 
+ssh server 
+vim etc ssh sshd _config(make enable forwarding) system ctl start sshd
+u are sending req to ssh server so that u can launch firefox 
+ssh  -X -l root ip  firefox
+
+
+
+file transfer
+for folder dwnld or upload
+scp  -r /root/lwfolder/ root@ip:/tmp  (scp is client tool u can use for ftp file transfer protocol)r is recursive 
+winscp is a software we can do graphical file transfer
+
+rpm -q firefox
+rpm -e  firefox

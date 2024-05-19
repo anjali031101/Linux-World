@@ -1,0 +1,39 @@
+python 15/6/23
+while print hii many times
+loop()
+{
+print("hi")
+}
+while(10000)
+{
+print("essay")
+}
+
+page=1
+whilepage ==10:while bar bar run krta h
+
+print("essay")take care of indentation
+otput infinitebcz ye nhi btaya ki page bhi palatna h
+to see date
+to check cal
+to setup account to create file to open web browser
+to exit
+page = 1 start from here
+whilw page <=10
+print("essay")
+page = page+1
+in python can use else with while
+ while True "press 1 code
+
+press 6 exit
+ elif 
+
+\n special char in two hi \n bye
+\\n print in one line 
+
+r can also  be used
+
+
+firefox k baad elif exit 6 else: no support 
+input("press enter to continue")
+os.system("clear") used at last to look menu good

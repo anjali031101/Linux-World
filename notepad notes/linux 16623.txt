@@ -1,0 +1,41 @@
+linux 16623
+creating server networking  web server program
+ip address has no capability to send and receive data
+ps command shows all processes running
+ip add is only meant to send info to right destination
+we need to give some no. to process in networking known as port no
+launch locally red hat
+chat app building
+
+ip add>port no.(name of program)
+data or payload  is sent in form of packets
+packets contain data
+       dest ip|dest port(dport)
+             payload dest
+network or socket programmingm 
+yun install nc     is network cat netcat cmnd
+rpm -q nmap-ncat(querying) netcat used for data printing
+nc -l 1234
+another pc
+
+for sending data also we can use nc cmnd
+(nc ip port data) .....
+nc .... 1234with the help of nc file transfer can be done
+
+hi  i m vimalctrl c 
+nc -l 2222(may be public)
+
+int concept thru nc
+nc knows giveinput output 
+
+create file 
+vim lw.txt
+cat lw.txt
+nc ip 1234< lw.txt(redir.concept) (file transfer) nc used to get data here and there
+nc -l 1234 > new.txt
+ nc ip 1234 < lw.txt
+
+voice chat
+nc input leti h print krdeti h
+so we add espeak-ng with pipe oper.
+use grep command pipe  for filtering 

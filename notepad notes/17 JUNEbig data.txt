@@ -1,0 +1,79 @@
+17 JUNE
+HADOOP 
+building own minisupercomputer
+big data
+storage-hard disk
+io speed cannot be incr
+
+intel chips
+
+to handle big data we need tools like hadoop(software or framework)
+lots of prblm can be solved like velocity ,storing and cost with the help of hadoop
+help you to get huge kind of storage
+inc kind of unlimited vel
+
+
+
+
+
+team name 1. team tortoise(means determination - like tortoise who never gives up 
+          2. team turtle (library in python )
+
+free -m
+ls
+ls -l lw.txt
+
+new term vim lw1.txt
+ls -l lw1.txt
+ls -l -h lw1.tx
+write data in file esc:wq
+free -m
+then copying and pasting  copying by pressing yy in command mode of vim
+10000000 p for paste 1 million line
+hadoop distributed file system[HDFS]
+hadoop cluster (hadoop cluster only manage storage)
+node manage everything - master node/nam   e node ,and slave node/data node
+adding more comp or slave nodes - hor. scaling
+to create a file we need directory
+to create dir. we need to create partition
+format(file system) of partition (without it cannot feed data in drive)
+launch instance 
+hadoop is built on top of java
+so for using it we need java
+sudo su-root
+whoami
+jdk7dwnld on google
+
+
+wget copy link java version7 direct installed into rhel
+yum install wget
+rpm -ivh hadoop
+history
+apache hadoop
+homework task :-take one company and how they  are using hadoop (case study)
+in rhel 
+dwnld hadoop
+hadoop suporrt eRHEL 7 VERSIOn
+df -h(size of hard disk)
+mkdir /mydata create folder
+
+hadoop config 
+storage sent to master node nd format will be done by master node
+hadoop namenode -format(only done by name node) 
+last command
+run a process /services /demon (master slave will do)hadoop -daemon.sh  start namenode
+
+hadoop dfsadmin -report(shows in this cluster how many data nodes are connected
+
+storage is contributed to master node by clusters that is known as scalability ex of hor scalability
+hadoop also give graphical utility
+hard disk ishadoop fs -ls(flash drive)
+
+
+
+
+
+
+
+
+

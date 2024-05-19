@@ -1,0 +1,18 @@
+web 
+task
+
+i m not going to tell my passwrd but someone can run program in my system(without remote login)
+
+we will set specialized program(common gateway interface it will take req and then it gives res) it will give an interface but thru networking  by requesting
+ i m server tom is client 
+Api(application program interface) setup - tom can access application thru server without knowing passwrd
+httpd program 
+webserver can also work as cgi gateway 
+
+
+yum install httpd
+systemctl start httpd
+history
+cp my.py /var/www/cgi-bin/
+cd
+ create as many as API's u can create 

@@ -1,0 +1,5 @@
+from os import listdir
+from os.path import isfile,join
+#get the training data we previously made
+data_path= './faces/user/'
+onlyfiles=[f for f in listdir(data_path) if isfile 

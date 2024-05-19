@@ -1,0 +1,17 @@
+docker build -t <image-name> .
+Tag the image with your Docker Hub username and the desired repository name: docker tag <image-name> <docker-hub-username>/<repository-name>
+Log in to Docker Hub:
+
+Log in to your Docker Hub account from the EC2 instance: docker login
+Enter your Docker Hub username and password when prompted.
+
+
+Push the Docker image to Docker Hub:
+
+Push the tagged Docker image to Docker Hub: docker push <docker-hub-username>/<repository-name>
+Replace <docker-hub-username> with your Docker Hub username.
+
+
+Verify the Docker image on Docker Hub:
+
+Visit Docker Hub in your web browser and navigate to your repository to verify that the image has been pushed successfully.

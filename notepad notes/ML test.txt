@@ -1,0 +1,295 @@
+ 
+Which activation function is used in output layers of binary classification problems?
+*
+1/1
+A) ReLU
+B) Tanh
+C) Sigmoid
+ 
+D) Leaky ReLU
+ 
+Which activation function is often used in hidden layers of deep neural networks to introduce non-linearity?
+*
+0/1
+A) Linear activation
+ 
+B) Sigmoid
+C) Softmax
+D) Hardmax
+Correct answer
+B) Sigmoid
+Feedback
+Answer: B
+ 
+Which activation function is defined as max(0, x) and is computationally efficient?
+*
+1/1
+A) ReLU
+ 
+B) Tanh
+C) Sigmoid
+D) Leaky ReLU
+ 
+Which activation function is used to address the vanishing gradient problem and has a wider range of values?
+*
+0/1
+A) Sigmoid
+B) Tanh
+C) Leaky ReLU
+D) Parametric ReLU (PReLU)
+ 
+Correct answer
+B) Tanh
+Feedback
+Answer: B
+Deep Learning (DL):
+4 of 4 points
+ 
+Deep learning is characterized by neural networks with:
+*
+1/1
+A) Few hidden layers
+B) Shallow architectures
+C) Many hidden layers
+ 
+D) Only output layers
+ 
+Which DL architecture is commonly used for image classification and recognition tasks?
+*
+1/1
+A) Convolutional Neural Networks (CNN)
+ 
+B) Recurrent Neural Networks (RNN)
+C) Long Short-Term Memory (LSTM)
+D) Multilayer Perceptron (MLP)
+ 
+What is transfer learning in deep learning?
+*
+1/1
+A) Training a model from scratch on a new problem
+B) Using a pre-trained model as a starting point and fine-tuning for a new task
+ 
+C) Transferring weights from one layer to another
+D) Transferring data between different neural networks
+ 
+What is the role of dropout regularization in deep learning?
+*
+1/1
+A) It prevents overfitting by randomly deactivating neurons during training.
+ 
+B) It increases the number of hidden layers in the network.
+C) It accelerates the training process.
+D) It encourages the network to memorize training data.
+Regression:
+4 of 5 points
+ 
+What is the goal of regression analysis in machine learning?
+*
+1/1
+A) To classify data into different classes
+B) To reduce the dimensions of the data
+C) To predict a continuous output value
+ 
+D) To perform clustering on the data
+ 
+Which metric is commonly used to evaluate the performance of regression models?
+*
+1/1
+A) Accuracy
+B) F1-score
+C) Mean Squared Error (MSE)
+ 
+D) Precision
+ 
+Polynomial regression is a type of regression that:
+*
+1/1
+A) Uses a single linear equation
+B) Fits a linear line to data points
+C) Captures non-linear relationships by using polynomial functions
+ 
+D) Is only used for classification tasks
+ 
+What is the key difference between linear regression and polynomial regression?
+*
+0/1
+A) Linear regression handles only one input variable, while polynomial regression can handle multiple inputs.
+B) Linear regression captures non-linear relationships, while polynomial regression captures linear relationships.
+C) Linear regression predicts categorical outcomes, while polynomial regression predicts continuous outcomes.
+D) Linear regression uses a single equation, while polynomial regression uses multiple equations
+ 
+Correct answer
+A) Linear regression handles only one input variable, while polynomial regression can handle multiple inputs.
+Feedback
+Answer: A
+ 
+In regression analysis, what does the R-squared value indicate?
+*
+1/1
+A) The percentage of outliers in the data
+B) The accuracy of the model's predictions
+C) The proportion of the variance in the dependent variable that is explained by the independent variables
+ 
+D) The number of features in the dataset
+Classification:
+5 of 5 points
+ 
+What is the primary objective of a classification algorithm?
+
+*
+1/1
+A) To predict a continuous output value
+B) To assign input data to predefined classes or categories
+ 
+C) To minimize the prediction error
+D) To generate new data points
+ 
+Which classification algorithm is based on the concept of creating a decision tree?
+*
+1/1
+A) K-Means
+B) Support Vector Machine (SVM)
+C) Random Forest
+ 
+D) Gradient Boosting
+ 
+In multi-class classification, what is the purpose of the Softmax activation function?
+*
+1/1
+A) It introduces non-linearity
+B) It normalizes class scores into probabilities
+ 
+C) It handles class imbalance
+D) It reduces the dimensionality of data
+ 
+Which classification algorithm is known for its ability to capture complex decision boundaries through a combination of multiple weak learners?
+*
+1/1
+A) Logistic Regression
+B) K-Nearest Neighbors (KNN)
+C) Random Forest
+ 
+D) Support Vector Machine (SVM)
+ 
+What is the purpose of the confusion matrix in classification evaluation?
+*
+1/1
+A) To visualize feature importance
+B) To calculate the loss function
+C) To evaluate model performance by showing true positive, true negative, false positive, and false negative rates
+ 
+D) To calculate the learning rate
+Feed Forward / Forward Propagation:
+4 of 4 points
+ 
+What happens during the feed forward phase of a neural network?
+*
+1/1
+A) Weights are updated using backpropagation
+B) The model is evaluated on the test data
+C) Data is passed through the layers from input to output
+ 
+D) The model is trained using gradient descent
+ 
+In feed forward neural networks, what are the inputs to the hidden layers?
+*
+1/1
+A) The final predictions
+B) The weights and biases
+C) The output of the previous layer
+ 
+D) The target labels
+ 
+Which of the following is NOT an input to the forward propagation process?
+*
+1/1
+A) Activation functions
+ 
+B) Input data
+C) Model weights and biases
+D) Model architecture
+ 
+In feed forward neural networks, which layer directly interacts with the input data?
+*
+1/1
+A) Output layer
+B) Hidden layers
+C) Convolutional layer
+D) Input layer
+ 
+Back Propagation:
+4 of 4 points
+ 
+What is backpropagation used for in neural networks?
+*
+1/1
+A) Adjusting weights to minimize the error between predictions and targets
+ 
+B) Calculating the forward propagation steps
+C) Regularizing the model to prevent overfitting
+D) Initializing the weights of the neural network
+ 
+What does the backpropagation algorithm calculate and update during training?
+*
+1/1
+A) Forward pass
+B) Gradients of the loss with respect to the weights
+ 
+C) Output values of the network
+D) Learning rate
+ 
+During backpropagation, what does the chain rule help calculate?
+*
+1/1
+A) The gradient of the activation function
+B) The gradient of the loss function with respect to the model's weights and biases
+ 
+C) The number of layers in the network
+D) The forward pass through the neural network
+ 
+What is the purpose of the learning rate in the backpropagation algorithm?
+*
+1/1
+A) To determine the number of epochs
+B) To adjust the number of hidden layers
+C) To control the size of weight updates during optimization
+ 
+D) To calculate the error between predictions and targets
+Keras:
+3 of 4 points
+ 
+What is Keras?
+*
+1/1
+A) A machine learning library for only reinforcement learning
+B) A deep learning framework built on top of TensorFlow
+ 
+C) A tool for data visualization
+D) A programming language for data analysis
+ 
+Which of the following is NOT a type of Keras model?
+*
+1/1
+A) Sequential
+B) Functional
+C) Convolutional
+ 
+D) Subclassing
+ 
+Keras provides an API for building and training models using different backends. What are these backends?
+*
+1/1
+A) TensorFlow, PyTorch, and Keras itself
+B) Scikit-learn, Theano, and PyTorch
+C) TensorFlow, Theano, and Caffe
+D) TensorFlow, Theano, and Microsoft Cognitive Toolkit (CNTK)
+ 
+ 
+What is a callback in Keras?
+*
+···
+/1
+A) A function that is used for generating random weights
+B) A visualization tool for model evaluation
+C) A utility to preprocess input data
+D) A set of functions that can be applied at various stages of training to modify the model's behavior

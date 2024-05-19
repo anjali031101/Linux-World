@@ -1,0 +1,20 @@
+linux 21 june
+manual ip given by us 
+manual ip after making it permanent is static ip
+commandline utility 
+set up connections- nmcli connection(gives all conn. to our device)
+nm
+for one more conn. - nmcli
+nmcli connection
+nmcli connection add con-name myhome ipv4.method(for ip manual or automatic ehich u want to take is method)
+nmcli connection add con-name myhome ipv4.method auto type ethernet
+nmcli connection
+nmcli connection show
+nmcli connect
+face book  will never come to know ip
+we did source neting
+for con with google we need d netting
+  
+
+
+ 

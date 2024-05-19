@@ -1,0 +1,59 @@
+20 june linux
+
+ping goo.gl
+ifconfig enp0s3(network card name)
+ifconfig enp0s3 10.1.12345
+16 versions of ip available
+publically we use ipv4(4bytes) and ipv6(16 bytes)
+dealing with  ipv4
+to remove ip
+ifconfig enp0s3 0
+ping 8.8.8.8
+any system that are isolated from network is most secure os in the world
+docker gives a way to isolate
+docker is a key behind security
+if config enp0s3 ip
+why not pinging 
+bcz network not known
+
+switch(works for only same network)
+router(tells the route of different network)
+how can we check whats our network name or identify
+152.168.1.2 and 152.168.10.3 1 octet or 2 or3
+class A 1 - 126
+ class B 128-191etc(unwanted cocept)
+its our choice
+
+subnet mask is a way through which we tell our network name
+ex 192.168.1.2 = 255.255.0.0
+network name is decided bcz then only we can tell what should we use router or switch
+
+ifconfig enp0s3 ip (192.168.1.2) netmask 255.0.0.0
+ifconfig
+each program who makes packets only makes when he knows the network (routing table)it is away to tell program that if network is known or not
+ping 192.168.1.3
+route -n(for checking routing table)
+ping 10.1.2.3(network unreachable)
+gateway(router work as gateway ..network se andr bhar jane ko help krta h)
+ping ip(not my ip its ip of router)
+ ex hotspot wifi etc ex of router
+ route add -net 8.0.0.0 gw (ip of mobile phn)192.168.1.1(new added router) or rote add -net 8.0.0.0 netmask 255.0.0.0 gw 192.168.1.1
+ctrl c
+route -n
+ctrl c
+nslookup www.facebook.com(to find ip of facebook)
+0.0.0.0(anywhere in the world)
+route add -net 0.0.0.0 gw 192.168.1.1
+route -n 
+
+one public(chargeable) by telecom  ip can only connect with public ip
+
+private to private(free)
+local network can be accessed by private but internet is only by public ip
+as there is range of private IPs when we want to access internet then private ip is blocked ..use public ip
+hotspot is both gateway and DHCP server(dynamic ip) and given by us is manually
+yum install dhclient
+dhclient -v
+kill -no jo bhi h
+
+

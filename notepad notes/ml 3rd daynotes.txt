@@ -1,0 +1,43 @@
+ml 3rd day
+#burthforce method
+ml slope goes downward
+computer does not understand graph visualization
+error or loss zero so found c value in y=cx linear regression uses hit and trial for finding value of c
+error showa the right direction if it is decreasing then we are in right direction
+decreasing slope (relation b/w c(hor.) and error or loss(ver.) thru graph idle example) 
+in real world we never reach to error zero but its our goal to reach zero
+goal we write in y axis
+whoever impacting the goal x axis
+datapoint(point of x and y)
+
+
+
+ml 16 june 2023
+dependent var increased x1 and x2 ex name hrs_caff hrs(x) marks(y)
+multi lineAR REGression
+y = c1x1 +c2x2
+name     hrs caff  hrs(x)  marks(y)
+
+harry    0          2       20
+tom      0          4       40
+rahul    100        4       30
+yash     200        4       20
+
+
+
+
+task: step1 try to identify the problem statement and challenges(brainstorm with team)
+      step2 topic knowledge in depth  req
+training and testing data
+
+
+dataset.shape
+split data into parts   (shift tab take help )
+first dump data into dataset
+from sklearn.model_selection import train_test_split
+x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=0.20,random_state=42)
+x.test
+
+
+
+         

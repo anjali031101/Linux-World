@@ -1,0 +1,126 @@
+Networking in Linux:
+
+-> ping command(all about ping)
+-> Task1: how to chat using ping 
+-> all about IPs(in detail)-> IP can be a single decimal number(and by this single number we can spoof the firewall like we can bypass the firewall), we can use a single decimal number to access the website
+-> SSH protocol
+-> init command
+-> ps -aux
+-> killall processName
+-> Task2: Use of SSH(need to open some process in team members lp)
+
+
+-> We can change the IP of our system by
+-> ifconfig networkcardName newIP
+-> IP versions are available from IPv.0 to 15 but for public use only IPv.4 and IPv.6 are available
+-> ifconfig ncName 0 (this will remove the IP)
+-> isolated OS is the most secure OS
+-> we can also give/change netmask of our network(ifonfig ncName ip netmask netmaskName)
+-> route -n(routing table)
+-> if our system knows the IP of other then only it create a packet and send it but if it doesn't know then it will show network id unreachable
+-> there are two types of IP address i.e public and private IP
+-> we can't connect between private and public and vice verse
+-> for accessing the internet we need public IP but we can access the local network using private IP
+-> there is range of private IPs so when we want to access the internet our private IPS are blocked so we need public IP
+-> packets are only generted when there is a record in routing table about the network we want to access
+
+-> nmcli connection(it will give all the connections to our device)
+-> nmcli connection add con-name ConnName ipv4.method auto type typeOfConn
+-> nmcli connection up ConnName
+
+
+-> cd /etc/NetworkManager.conf(it have all the details about the connections
+-> cd system-connections
+
+-> privateIP-->publicIP(SourceNAT)
+-> publicIP-->privateIP(DestNAT)
+
+-> router can also have more than one IP which is called IPpool
+-> SSH connection have 22 as port no
+
+All about port forwading:
+
+-> there is one more thing which is Port Address Translation(PAT)
+
+-> netstat -tnlp(for listing the process along with port and IPs)
+
+-> firewall-cmd  --forward-ports(list of forwarding packets)
+-> firewall-cmd --add-forward-port=8081:protocol=tcp:toport=80
+-> http->80 and https->443
+
+Task:
+ping broadcast get all the IPs of the connected devices with your network
+
+-> firewall-cmd --add-service=httpd(will allow to connect to httpd) this is temp but we want to keep it permanent we can add --parmanent
+-> everytime when we try to run http:ip then it will access the index.html and if we want to access some other html file then we have to mention the name index is default but if we want to change it we can change it by changing the configuration file of httpd(path- /etc/httpd/conf/httpd.conf
+
+-> one process can have multiple ports but one port can't have more than one process assigned
+-> we can change the port of httpd by editing the httpd.conf (Listen portno)
+-> and we have to tell the client to about this change by mentioning the new port number
+-> the httpd server works on http protocol but the base of this is tcp protocol
+-> firewall-cmd --add-port=portno/tcp_or_udp and --permanent for make changes permanent
+
+
+
+
+
+
+
+
+
+
+
+
+29 june linux
+
+All about shadow file:
+
+-> path of shadow file(/etc/shadow)
+-> have 9 fields
+-> the actual password is stored in shadow file 
+-> we enter the password the password is checked first in the passwd file then it will provide the link to the password in the shadow file, we don't store the actual password in the passwd file because of security reason because the passwd file is available for all but only root which has all powers can access the shadow file
+
+-> when there is exclamation mark it means the password is locked 
+-> useradd don't set the password we have to use passwd username to set the password
+-> when we set the password the password is stored in the form of hashing 
+hashing is one way but encryption is two way one we convert the password in some non understandable form and if we
+are able to convert back it to the  normal password then it is encryption.
+there are so many hashing algorithm (if the passwords field 1st char tells about the hashing algo used for ex.6 tells that the algo is sha512, 5 tells it is md5(decrypter)
+opensl md5(command) check name is present or not
+opensl md5 type passwrd 2 times ctrl D  passwrd is not stored anywhere in ur system
+hash cant be computed or reversed
+first dollar tell whats the name of algo if 6 is then md5 and 5 then sha  and then salt is stored
+
+
+
+````passwd lw
+how they check password  without storing the password in your system
+hash with salt
+then comes the question how our system comes to know that we entered the correct password for this the system stores the salt and the hashing value and when we try to enter the password the system mix the entered password and the salt and then calculate the hashing value and then check with hashing value with the stored hashing value
+
+->want to change ....open ssl passwd -6(u can generate  own passwrd using sha algo)
+we can lock the password by locking it using !
+usermod(for modification)-L lw(for lock)
+usermod -U lw(unlock)
+we can built multi authentication used in AI and for authentication parte in ur app use hashing
+
+
+server 
+
+configure web
+web httpd server works under http and main base is TCP 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

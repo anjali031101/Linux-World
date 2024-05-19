@@ -1,0 +1,37 @@
+deep learning 5 july
+feed forward
+aroma(smell)
+
+brain k andr jo input leta h in the form of electric signal is the cell called neuron
+
+5 senses 5 input came and gone to brain
+now its the duty of brain 
+(label set by someone)supervised ---y --- green tea
+
+   input layer (x1 x2 x3 x4 x5 ) 
+  brain layer 1(hidden layer) inside it 5 neuron are present 
+neuron collecting info by x1 respectively 
+first neuron of first layer did learning  little bit and then to learn in detail it forward to the next layer
+each neuron of first layer after completing their learning the collective learning of all three is passed to the each neuron of next layer
+the neuron of scnd layer analysed separately  in percent  
+every neuron gives their input to y then y decides which neuron pattern is best in accuracy to identify
+the way of third neuron to analyze is best giving perfect ans
+
+we will only keep the neuron which gives best ans rest will be removed
+
+input layer hidden layer 1 ...2 ..3..output layer
+y is green tea the pattern we are learning  is for green tea
+eye touch nose (hot aroma ) all gave contributions
+jitne neuron h utne hi function honge system pr jyada load hoga
+more neurons more accuracy
+more neurons less performance
+y will tell ans 
+if more neuron than u can try more hit and trial method to find more accuracy
+if u have x1 x2 x3 ...n dimensions data we will have
+
+relu is optimized for intermediate func
+brain works:
+its the duty of neuron to find   weightage.that is eye is giving right info how much trust should neuron do etc
+every info 
+all inputs are given to each neuron in first laye
+ 

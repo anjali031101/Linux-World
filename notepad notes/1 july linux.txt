@@ -1,0 +1,12 @@
+1 july linux
+remote login 
+telnet program
+open ssh program
+software thru which we can enable ssh is openssh-server
+by deafaultport no for ssh is 22 security in ssh allow only this port no allow by http
+task : enable ssh service in docker
+    copy the file on windows from remote host to local ho
+hack in ssh: 
+
+getenforce
+sns give lots of extra security

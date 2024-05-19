@@ -1,0 +1,20 @@
+CNN:covolutional neural network
+deep learning
+convol way feature extraction
+bht se pixel ko milake ek feature bnaya
+for image 2d or 3d covert data into by 1d thru flatten
+image size 1000 by 1000  image ko choti krdi convol k baad output is also a image
+neural network another name fully connected layers (FC)
+CNN DESIGN = convol +flatten and FC
+image cut in diff ways(covol) more convol more accurate but it costly as CPU consume time 
+more convol better result proper extract
+4 convol layer(main work feature extraction) 4 image ..har pixel x1,x2 h
+we dont feed our convol image directly into FC pehle image ko chota krne k liye alg se program run krenge known as pooling layer (iss tarah chota kre image ko without loosing important information)
+then 2d 3d image ko flatten se 1d krenge then load into NNor FC 
+1d m isliye kia bcz we cant train our model thru 2d 3d
+box ko kernel bolte h 
+WE CAN generate our own images by all angles 
+
+
+
+

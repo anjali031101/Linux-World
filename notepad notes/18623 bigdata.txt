@@ -1,0 +1,34 @@
+18623 bigdata 
+hardware is not reliable
+ip1 issue of durability 
+thru replication factor  replica we can achieve durability and availability(spfi) failure issue
+master node and data node are different IP
+hadoop fs -is(hadoop connected or not we dont know)
+ping ip
+yum install wget-y
+after format new created master node
+
+client decide copyimg of block 3 rep factor are decided by client it can only change
+parallel opearation rpm -q jdk
+jps(java k thru kitne process h)
+
+and can tell which node
+yum install vim -y
+block size decided by client
+
+task:
+find out min size of block a
+research
+tcpdump(entire visibility for wire ne4)
+yum install tcpdumps
+ssh port no.
+tcpdump   -i eth0 icmp -n
+pimg work ok icmp protocol
+task
+find  out who sends the data to datanode whether it is master
+how client come to know about whta is ip [by -
+whether client send the data to all the data node or it send to one nodeand ask to data node to send other data 
+nodes
+what if client is sending data to  data node and that  data nodegoes down what will happen whether the operation of copy stops or not
+check whether data is copying paarallely or the data is copying serially
+master node will decide on which data node data stores

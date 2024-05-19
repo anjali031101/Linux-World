@@ -1,0 +1,14 @@
+deep learning 1 july (Artificial Neueral Network)
+goal is same to predict the model
+uses the approach that is try to mimic how twe human brain learn whereas machine learning is traditional method or just mathematics to predict the model
+
+data incr. then accuracy incr.but if we incr more and more then accuracy does not incr
+feature selection is imp
+
+ex billion of features like chatgpt
+use case automation
+brain automatically discard most of the info from millions of info that is feature selection and elimination.it does this acc to the focus
+
+
+
+
